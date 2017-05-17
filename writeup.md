@@ -90,7 +90,7 @@ My final model consisted of the following layers:
 
 The code for training the model is located in the seventh cell of the iPython notebook.
 
-To train the model, I used an ....
+To train the model, I used softmax functions which calculates the probabilities of the traffic sign class based on the output by the last layer. The traffic sign class is encoded by a one-hot encoding.
 
 #### 5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
